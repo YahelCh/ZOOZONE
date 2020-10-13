@@ -1,0 +1,159 @@
+{
+  "animal": [
+    {
+      "id": "1",
+      "name": "Lion",
+      "numOfLegs": 4,
+      "class": "Mammals",
+      "price": "5800",
+      "description": "The lion (Panthera leo) is a species in the family Felidae and a member of the genus Panthera. It has a muscular, deep-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male lions have a prominent mane. With a typical head-to-body length of 184–208 cm (72–82 in) they are larger than females at 160–184 cm (63–72 in). It is a social species, forming groups called prides. A lion pride consists of a few adult males, related females and cubs. Groups of female lions usually hunt together, preying mostly on large ungulates. The lion is an apex and keystone predator; although some lions scavenge when opportunities occur and have been known to hunt humans, the species typically does not.",
+      "foods": [
+        {
+          "id": "1",
+          "description": "aaa",
+          "measureUnit": "kg",
+          "animalId": "1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Snake",
+      "numOfLegs": 0,
+      "class": "Reptiles",
+      "price": "15000",
+      "foods": [
+        {
+          "id": "2",
+          "description": "mice",
+          "measureUnit": "kg",
+          "animalId": "2"
+        },
+        {
+          "id": "3",
+          "description": "bats",
+          "measureUnit": "kg",
+          "animalId": "2"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "rhinoceros",
+      "numOfLegs": 0,
+      "class": "Mammals",
+      "price": "2500",
+      "foods": [
+        {
+          "id": "4",
+          "description": "grass",
+          "measureUnit": "kg",
+          "animalId": "3"
+        },
+        {
+          "id": "5",
+          "description": "flowers",
+          "measureUnit": "kg",
+          "animalId": "3"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "rhinoceros",
+      "numOfLegs": 0,
+      "class": "Mammals",
+      "price": "1600",
+      "foods": [
+        {
+          "id": "4",
+          "description": "grass",
+          "measureUnit": "kg",
+          "animalId": "3"
+        },
+        {
+          "id": "5",
+          "description": "flowers",
+          "measureUnit": "kg",
+          "animalId": "3"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "rhinoceros",
+      "numOfLegs": 0,
+      "class": "Mammals",
+      "price": "32500",
+      "foods": [
+        {
+          "id": "4",
+          "description": "grass",
+          "measureUnit": "kg",
+          "animalId": "3"
+        },
+        {
+          "id": "5",
+          "description": "flowers",
+          "measureUnit": "kg",
+          "animalId": "3"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "rhinoceros",
+      "numOfLegs": 0,
+      "class": "Mammals",
+      "price": "14500",
+      "foods": [
+        {
+          "id": "4",
+          "description": "grass",
+          "measureUnit": "kg",
+          "animalId": "3"
+        },
+        {
+          "id": "5",
+          "description": "flowers",
+          "measureUnit": "kg",
+          "animalId": "3"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "rhinoceros",
+      "numOfLegs": 0,
+      "class": "Mammals",
+      "price": "10100",
+      "foods": [
+        {
+          "id": "4",
+          "description": "grass",
+          "measureUnit": "kg",
+          "animalId": "3"
+        },
+        {
+          "id": "5",
+          "description": "flowers",
+          "measureUnit": "kg",
+          "animalId": "3"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "asa",
+      "numOfLegs": "6",
+      "class": "2",
+      "description": "sadsadsa"
+    },
+    {
+      "name": "uuuu",
+      "numOfLegs": "2",
+      "description": "dasdsa",
+      "id": "NkpZf47"
+    }
+  ]
+}

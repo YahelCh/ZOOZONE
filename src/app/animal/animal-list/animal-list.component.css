@@ -1,0 +1,22 @@
+.animal-details {
+    border: 1px solid black;
+    margin: 2px;
+    position:relative;
+    height:150px;
+    background-color: brown;
+    cursor: pointer;
+  }
+
+  .add-animal-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
+  }
+
+  .click-to-add{
+    font-size: 22px;
+  }
