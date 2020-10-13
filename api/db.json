@@ -1,28 +1,6 @@
 {
   "animal": [
     {
-      "id": "2",
-      "name": "Snake",
-      "numOfLegs": "6",
-      "class": "3",
-      "price": "15000",
-      "foods": [
-        {
-          "id": "2",
-          "description": "mice",
-          "measureUnit": "kg",
-          "animalId": "2"
-        },
-        {
-          "id": "3",
-          "description": "bats",
-          "measureUnit": "kg",
-          "animalId": "2"
-        }
-      ],
-      "description": "snake is dangerous"
-    },
-    {
       "id": "3",
       "name": "rhinoceros",
       "numOfLegs": 0,
@@ -133,6 +111,12 @@
       "numOfLegs": "6",
       "class": "2",
       "description": "sadsadsa"
+    },
+    {
+      "name": "Bear",
+      "numOfLegs": "4",
+      "description": "love to sleep",
+      "id": "duvsZVC"
     }
   ]
 }
