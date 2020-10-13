@@ -1,0 +1,55 @@
+<div class="container-fluid">
+    <form [formGroup]="animalForm" autocomplete="off" novalidate (ngSubmit)="updateAnimal(animalForm.value)">
+        <div class="form-horizontal card card-body bg-light mb-2 mt-2">
+
+            <div class="form-group row">
+                <label for="name" class="control-label col-md-2">Name of the animal: </label>
+                <div class="col-md-5">
+                    <input type="text" formControlName="name" disabled="disabled" id="name" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="numOfLegs" class="control-label col-md-2">Number of legs </label>
+                <div class="col-md-5">
+                    <input type="text" formControlName="numOfLegs" id="numOfLegs" class="form-control" />
+                </div>
+                <div class="col-md-5">
+                    <em *ngIf="validateControl('numOfLegs') && hasError('numOfLegs', 'required')">Number of legsis
+                        required</em>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="class" class="control-label col-md-2">Class: </label>
+                <div class="col-md-5">
+                    <select name="class" id="class" class="form-control" formControlName="class">
+                        <option *ngFor="let c of classes" [value]="c.id">{{ c.text }}</option>
+                    </select>
+                </div>
+                <div class="col-md-5">
+                    <em *ngIf="validateControl('class') && hasError('class', 'required')">Class is required</em>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="description" class="control-label col-md-2">Long Description </label>
+                <div class="col-md-5">
+                    <textarea formControlName="description" id="description" class="form-control"></textarea>
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="form-group row">
+                <div class="offset-5 col-md-1">
+                    <button type="submit" class="btn btn-info" [disabled]="!animalForm.valid">Save</button>
+                </div>
+                <div class="col-md-1">
+                    <button type="button" class="btn btn-danger" (click)="redirectToAnimalList()">Cancel</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>

@@ -1,0 +1,18 @@
+<div class="animal-details">
+    <button class="action-btn" type="button" (click)="editThisAnimal()">
+       edit
+    </button>
+    <button class="action-btn" type="button" (click)="removeThisAnimal()">
+        remove
+     </button>
+    <p class="title">{{animal.name}}</p>
+    <p>Has {{animal.numOfLegs}} legs</p>
+    <p>Belongs to the <span class="class">{{animal.class}}</span> class</p>
+    <p>Average cost: {{animal.price | currency}}</p>
+    <div [ngClass]="{'show-less': showMoreDesciption}">
+        {{animal.description}}
+    </div>
+    <button class="read-more" type="button" (click)="toggleDescriptionText()">
+        {{ showMoreDesciption ? 'Read more..' : 'Read Less' }}
+    </button>
+</div>

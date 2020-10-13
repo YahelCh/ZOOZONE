@@ -1,0 +1,138 @@
+{
+  "animal": [
+    {
+      "id": "2",
+      "name": "Snake",
+      "numOfLegs": "6",
+      "class": "3",
+      "price": "15000",
+      "foods": [
+        {
+          "id": "2",
+          "description": "mice",
+          "measureUnit": "kg",
+          "animalId": "2"
+        },
+        {
+          "id": "3",
+          "description": "bats",
+          "measureUnit": "kg",
+          "animalId": "2"
+        }
+      ],
+      "description": "snake is dangerous"
+    },
+    {
+      "id": "3",
+      "name": "rhinoceros",
+      "numOfLegs": 0,
+      "class": "Mammals",
+      "price": "2500",
+      "foods": [
+        {
+          "id": "4",
+          "description": "grass",
+          "measureUnit": "kg",
+          "animalId": "3"
+        },
+        {
+          "id": "5",
+          "description": "flowers",
+          "measureUnit": "kg",
+          "animalId": "3"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "rhinoceros",
+      "numOfLegs": 0,
+      "class": "Mammals",
+      "price": "1600",
+      "foods": [
+        {
+          "id": "4",
+          "description": "grass",
+          "measureUnit": "kg",
+          "animalId": "3"
+        },
+        {
+          "id": "5",
+          "description": "flowers",
+          "measureUnit": "kg",
+          "animalId": "3"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "rhinoceros",
+      "numOfLegs": 0,
+      "class": "Mammals",
+      "price": "32500",
+      "foods": [
+        {
+          "id": "4",
+          "description": "grass",
+          "measureUnit": "kg",
+          "animalId": "3"
+        },
+        {
+          "id": "5",
+          "description": "flowers",
+          "measureUnit": "kg",
+          "animalId": "3"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "rhinoceros",
+      "numOfLegs": 0,
+      "class": "Mammals",
+      "price": "14500",
+      "foods": [
+        {
+          "id": "4",
+          "description": "grass",
+          "measureUnit": "kg",
+          "animalId": "3"
+        },
+        {
+          "id": "5",
+          "description": "flowers",
+          "measureUnit": "kg",
+          "animalId": "3"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "rhinoceros",
+      "numOfLegs": 0,
+      "class": "Mammals",
+      "price": "10100",
+      "foods": [
+        {
+          "id": "4",
+          "description": "grass",
+          "measureUnit": "kg",
+          "animalId": "3"
+        },
+        {
+          "id": "5",
+          "description": "flowers",
+          "measureUnit": "kg",
+          "animalId": "3"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "asa",
+      "numOfLegs": "6",
+      "class": "2",
+      "description": "sadsadsa"
+    }
+  ]
+}
