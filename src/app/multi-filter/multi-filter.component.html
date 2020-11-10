@@ -1,0 +1,46 @@
+<form class="filters" [formGroup]="filtersForm" (ngSubmit)="applyFilters(filtersForm.value)">
+    <div class="row ">
+        <div class="col-md-3">
+            <label class="filter-label">filter by free text</label>
+            <input name="freeTextFilter" class="form-field" formControlName="freeText"
+                placeholder="Type to filter">
+               
+        </div>
+        <div class="col-md-3">
+            <label class="filter-label">added after:</label>
+            <dl-date-time-picker startView="day" maxView="year" minView="day" minuteStep="5"
+                formControlName="fromDate">
+            </dl-date-time-picker>
+
+        </div>
+        
+        <div class="col-md-3">
+            <label class="filter-label">added before:</label>
+            <dl-date-time-picker startView="day" maxView="year" minView="day" minuteStep="5"
+                formControlName="toDate">
+            </dl-date-time-picker>
+
+        </div>
+        <div class="col-md-3">
+            <div>
+            <label class="filter-label">classification:</label>
+            <select name="class" id="class" class="form-control" (change)="classChanged($event.target.value)" formControlName="class">
+                <option *ngFor="let c of classes" [value]="c.id">{{ c.text }}</option>
+            </select>
+        </div>
+        <div>
+            <label class="filter-label">sub classification:</label>
+            <select name="class" id="class" class="form-control" formControlName="subClass">
+                <option *ngFor="let s of filteredSubClasses" [value]="s.id">{{ s.text }}</option>
+            </select>
+        </div>
+        </div>
+    </div>
+    <div class="row filter-buttons">
+        <div class="col-md-12 filter-button">
+            <button class="btn" type="submit">Filter</button>
+            <button class="btn" type="button" (click)="clearFilters()">Clear</button>
+        </div>
+    </div>
+   
+</form>

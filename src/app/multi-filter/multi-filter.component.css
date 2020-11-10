@@ -1,0 +1,16 @@
+.filters{
+    margin-top: 5px;
+}
+
+.filter-buttons button{
+    background: none;
+    border: none;
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    cursor: pointer;
+    color: cornflowerblue;
+}
+.filter-label{
+    font-family: cursive;
+}

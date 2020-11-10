@@ -13,7 +13,7 @@ const routes: Routes = [];
       { path: 'animal', loadChildren: () => import('./animal/animal.module').then(m => m.AnimalModule) },
       { path: '500', component: InternalServerComponent },
       { path: '404', component : NotFoundComponent},
-      { path: '', redirectTo: '/home', pathMatch: 'full' },
+      { path: '', redirectTo: '/animal', pathMatch: 'full' },
       { path: '**', redirectTo: '/404', pathMatch: 'full'}
     ])
   ],

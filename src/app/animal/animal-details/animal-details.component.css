@@ -1,8 +1,10 @@
 .animal-details {
   border: 1px solid black;
   margin: 2px;
-  position:relative;
-background-color: wheat;
+  position: relative;
+  background-color: wheat;
+  height: 340px;
+  width: 215px;
 }
 
 .title {
@@ -29,7 +31,7 @@ background-color: wheat;
   right: 0px;
 }
 
-.action-btn{
+.action-btn {
   display: inline-block;
   cursor: pointer;
   color: #2d0786;
@@ -40,9 +42,9 @@ background-color: wheat;
   margin-right: 0;
   border: none;
   background: none;
-  padding-left:3px;;
+  padding-left: 3px;
 }
 
 .show-less {
-   display: none;
+  display: none;
 }

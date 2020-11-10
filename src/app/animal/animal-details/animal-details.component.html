@@ -7,8 +7,10 @@
         remove
      </button>
     <p class="title">{{animal.name}}</p>
+    <p>Added to Zoo-Zone at {{animal.dateAdded}}</p>
     <p>Has {{animal.numOfLegs}} legs</p>
-    <p>Belongs to the <span class="class">{{animal.class}}</span> class</p>
+    <p>Belongs to the <span class="class">{{animal.classText}}</span> class</p>
+    <p>at <span class="class">{{animal.subClassText}}</span> sub class</p>
     <p>Average cost: {{animal.price | currency}}</p>
     <div [ngClass]="{'show-less': showMoreDesciption}">
         {{animal.description}}

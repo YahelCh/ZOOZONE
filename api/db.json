@@ -4,8 +4,12 @@
       "id": "3",
       "name": "rhinoceros",
       "numOfLegs": 0,
-      "class": "Mammals",
+      "classText": "Mammals",
+      "classCode": 1,
+      "subClassText":"Mammals sub class 2",
+      "subclassCode": 1,
       "price": "2500",
+      "dateAdded":"11-05-2020",
       "foods": [
         {
           "id": "4",
@@ -25,8 +29,12 @@
       "id": "4",
       "name": "rhinoceros",
       "numOfLegs": 0,
-      "class": "Mammals",
+      "classText": "Mammals",
+      "classCode": 1,
+      "subClassText":"Mammals sub class 2",
+      "subclassCode": 1,
       "price": "1600",
+      "dateAdded":"11-10-2020",
       "foods": [
         {
           "id": "4",
@@ -46,8 +54,12 @@
       "id": "5",
       "name": "rhinoceros",
       "numOfLegs": 0,
-      "class": "Mammals",
-      "price": "32500",
+      "classText": "Mammals",
+      "subClassText":"Mammals sub class 2",
+      "subclassCode": 1,
+      "classCode": 1,
+      "price": "32500", 
+      "dateAdded":"11-11-2020",
       "foods": [
         {
           "id": "4",
@@ -67,7 +79,11 @@
       "id": "6",
       "name": "rhinoceros",
       "numOfLegs": 0,
-      "class": "Mammals",
+      "classText": "Mammals",
+      "subClassText":"Mammals sub class 2",
+      "subclassCode": 2,
+      "classCode": 1,
+      "dateAdded":"30-10-2020",
       "price": "14500",
       "foods": [
         {
@@ -88,7 +104,11 @@
       "id": "7",
       "name": "rhinoceros",
       "numOfLegs": 0,
-      "class": "Mammals",
+      "classText": "Mammals",
+      "subClassText":"Mammals sub class 3",
+      "subclassCode": 3,
+      "classCode": 1,
+      "dateAdded":"11-05-2020",
       "price": "10100",
       "foods": [
         {
@@ -109,14 +129,42 @@
       "id": "9",
       "name": "asa",
       "numOfLegs": "6",
-      "class": "2",
+      "classText": "Amphibians",
+      "subClassText":"Amphibians sub class 1",
+      "subclassCode": 1,
+      "classCode": 2,
+      "dateAdded":"11-05-2020",
       "description": "sadsadsa"
     },
     {
       "name": "Bear",
       "numOfLegs": "4",
+      "classText": "poultry",
+      "subClassText":"poultry sub class 2",
+      "subclassCode": 2,
+      "classCode": 3,
       "description": "love to sleep",
       "id": "duvsZVC"
+    },
+    {
+      "name": "גכדג",
+      "numOfLegs": "כגגכד",
+      "classText": "Reptiles",
+      "subClassText":"Reptiles sub class 1",
+      "subclassCode": 1,
+      "classCode": 4,
+      "description": "כגגדכ",
+      "id": "3CoORLS"
+    },
+    {
+      "name": "גדגד",
+      "numOfLegs": "דגגד",
+      "classText": "Reptiles",
+      "subClassText":"Reptiles sub class 1",
+      "subclassCode": 1,
+      "classCode": 4,
+      "description": "גדגדגד",
+      "id": "dxjbTFd"
     }
   ]
 }

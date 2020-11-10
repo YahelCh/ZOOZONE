@@ -8,18 +8,24 @@ import { AnimalDetailsComponent } from './animal-details/animal-details.componen
 import { AnimalCreateComponent } from './animal-create/animal-create.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AnimalEditComponent } from './animal-edit/animal-edit.component';
+import { DlDateTimeDateModule, DlDateTimePickerModule } from 'angular-bootstrap-datetimepicker';
+import { MultiFilterComponent } from '../multi-filter/multi-filter.component';
+import { FilterPipe } from '../filter.pipe';
 
 @NgModule({
   declarations: [
     AnimalListComponent,
     AnimalDetailsComponent,
     AnimalCreateComponent,
-    AnimalEditComponent
+    AnimalEditComponent,
+    MultiFilterComponent,
+    FilterPipe,
   ],
   imports: [
     CommonModule,
     ReactiveFormsModule,
-    FontAwesomeModule,
+    DlDateTimeDateModule,
+    DlDateTimePickerModule , 
     RouterModule.forChild([
       { path: 'list', component: AnimalListComponent },
       { path: 'details/:id', component: AnimalDetailsComponent },

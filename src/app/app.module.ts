@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { DlDateTimeDateModule, DlDateTimePickerModule } from 'angular-bootstrap-datetimepicker';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,10 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { NotFoundComponent } from './error-pages/not-found/not-found.component';
 import { InternalServerComponent } from './error-pages/internal-server/internal-server.component';
+import { FilterPipe } from './filter.pipe';
+import { MultiFilterComponent } from './multi-filter/multi-filter.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -16,13 +21,19 @@ import { InternalServerComponent } from './error-pages/internal-server/internal-
     HomeComponent,
     MenuComponent,
     NotFoundComponent,
-    InternalServerComponent
+    InternalServerComponent,
+   
+    
+
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FontAwesomeModule
+    ReactiveFormsModule,
+    DlDateTimeDateModule,
+    DlDateTimePickerModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

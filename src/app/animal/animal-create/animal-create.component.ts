@@ -54,7 +54,8 @@ export class AnimalCreateComponent implements OnInit {
       name: animalFormValue.name,
       numOfLegs:animalFormValue.numOfLegs,
       class: animalFormValue.class.text,
-      description: animalFormValue.description
+      description: animalFormValue.description,
+      dateAdded:'10-02-2020'
     }
     const apiUrl = 'animal';
     this.repository.create(apiUrl, animal)
